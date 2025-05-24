@@ -1,5 +1,5 @@
 
-# Face Recognition using SimCLR and ResNet18
+# Face Recognition using Self-Supervised Learning (SimCLR) and Transfer Learning
 
 ## 🧠 Project Overview
 
@@ -89,7 +89,7 @@ pip install torch torchvision
 ## 🚀 How to Run
 
 1. Place dataset in a folder named `data/`.
-2. Open `Machine Learning Project.ipynb` in Jupyter Notebook.
+2. Open `Self-Supervised Learning.ipynb` in Jupyter Notebook.
 3. Execute cells in order:
    - Data preprocessing
    - SimCLR training (optional)
@@ -99,8 +99,8 @@ pip install torch torchvision
 Or run via script:
 
 ```bash
-jupyter nbconvert --to script "Machine Learning Project.ipynb"
-python "Machine Learning Project.py"
+jupyter nbconvert --to script "Self-Supervised Learning.ipynb"
+python "Self-Supervised Learning.py"
 ```
 
 ---
